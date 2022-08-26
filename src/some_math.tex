@@ -1,0 +1,67 @@
+\documentclass{article}
+
+
+\usepackage{amsmath}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+
+\title{Some math}
+
+\begin{document}
+
+    \section{Vector basics}
+
+    Magnitude of a vector $\vv{v}$ is denoted $|\vv{v}|$. It is the square root of the sum of the squares of a vector
+
+    \begin{align}
+        \vv{v} & = {x, y} \\
+        |\vv{v}| & = \sqrt{x^2 + y^2}
+        \label{eqn:magnitudeOfAVector}
+    \end{align}
+
+    The magnitude $|\vv{v}|$ of a one element vector is the square root of the square. It is therefore the same as the absolute value.
+
+    The magnitude $|\vv{v}|$ $=$ norm $=$ modulus $=$ length of a vector.
+
+    A unit vector is a vector with magnitude $=$ 1. To obtain a unit vector in the direction of a vector $\vv{v}$ we divide each element in the vector by the magnitude/length/modulus of the vector. The unit vector is denoted with a “hat”
+
+    \[ \vv{v} = \frac{\vv{v}}{|\vv{v}|}\]
+
+
+    \section{Polar Coordinates and complex numbers}
+
+    Complex numbers have two components, a real and imaginary. The imaginary part is denoted $i$. Just like the "unit"
+    of real numbers is 1, the unit of imaginary numbers is the square root of -1.
+
+    \begin{equation}
+        i = \sqrt{-1}
+    \end{equation}
+
+    The way complex numbers are often represented is $z=a+bi$. However you can also represent them in polar coordinates
+
+    \[z=r\cdot\cos(\theta) + i r\cdot\sin(\theta) = r\cdot(\cos(\theta) + i\sin(\theta))\]
+
+    The abbeviated form is
+
+    \[z=r\cdot cis(\theta)\]
+
+    where
+    \begin{itemize}
+        \item $r = $ radius $=$ $\sqrt{x^2 + y^2}$, where $x = $ width and $y =$ height.
+        \item $\theta =$ angle $ \tan^{-1}(\frac{y}{x})$
+    \end{itemize}
+
+
+    \section{Exponential form of a complex number}
+    If a complex number $z$ has modulus $r$ and argument $\theta$, then
+
+    \[z=r(\cos(\theta) + i \sin(\theta))\]
+
+    Therefore, complex numbers can be represented with only the modulus $r$ and the argument $\theta$. The
+    exponential form of a complex number is a simpler way of representing the same thing, using the same
+    parameters. To understand, look at Euler's identity equation.
+
+    \[e^{i\theta} = \cos(\theta) + i \sin(\theta) \]
+
+    \section{Fourier transformation}
+
+\end{document}
